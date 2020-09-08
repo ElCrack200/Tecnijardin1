@@ -1,0 +1,156 @@
+<html>
+<head>
+  <link rel="icon" type="" href="icons/Prueba10.ico" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+  <title>Macetas</title>
+  <link rel ="stylesheet" href="estilos1.css">
+
+</head>
+<body>
+  <div id="contenedor">
+  <div id="sidemenu" class="menu-expanded">
+
+    <div id="header">
+      <div id="title"><span></span></div>
+
+      <div id="menu-btn">
+        <div class="btn-planta"></div>
+        <div class="btn-planta"></div>
+        <div class="btn-planta"></div>
+      </div>
+  </div>
+
+  <div id= "profile">
+     <div id="photo"><img src="img/Prueba10.png" alt=""></div>
+      <div id="name"><span>Bienvenidos</span></div>
+    </div>
+    <div id="menu-items">
+      <div class="item">
+        <a href="index.html">
+          <div class="icon"><img src="icons/Inicio.png" alt=""></div>
+          <div class="title"><span>Inicio</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Servicios.html">
+          <div class="icon"><img src="icons/Service4.png" alt=""></div>
+          <div class="title"><span>Servicios</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Productos.html">
+          <div class="icon"><img src="icons/Service5.png" alt=""></div>
+          <div class="title"><span>Productos</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Contactos.html">
+          <div class="icon"><img src="icons/Service6.png" alt=""></div>
+          <div class="title"><span>Contactos</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+
+  </div>
+</div>
+<div id="contenedor1">
+<div id="main-container">
+  <p><div class="First-title"> <img src="img/Título5.png" alt="" class="img1"></div></p>
+  <div class="container">
+    <div class="card">
+        <img src="img/Macetas1.jpg">
+        <h4>Macetas Unidas de Concreto</h4>
+        <p>Q150.00</p>
+        <p>Color Único(Imagen)</p>
+    </div>
+  <P></P>
+    <div class="card">
+        <img src="img/Macetas2.jpg">
+        <h4>Macetas de Fibra de Vidrio</h4>
+        <p>Q100.00</p>
+        <p>Varios Colores</p>
+    </div>
+  </div>
+  <P></P>
+  <div class="container">
+    <div class="card">
+        <img src="img/Macetas3.jpg">
+        <h4>Macetas de Terracota</h4>
+        <p>Q75.00</p>
+        <p>Color Único(Imagen)</p>
+    </div>
+    <P></P>
+    <div class="card">
+        <img src="img/Macetas4.jpg">
+        <h4>Maceta de Pared, Plástica</h4>
+        <p>Q85.00</p>
+        <p>Varios Colores</p>
+    </div>
+  </div>
+  <P></P>
+  <div class="container">
+    <div class="card">
+        <img src="img/Macetas5.jpg">
+        <h4>Macetas Aéreas</h4>
+        <p>Q40.00</p>
+          <p>Diseños variados</p>
+    </div>
+  <P></P>
+    <div class="card">
+        <img src="img/Macetas6.jpg">
+        <h4>Macetas de Barro</h4>
+        <p>Q150.00</p>
+          <p>Diseños variados</p>
+    </div>
+</div>
+<p></p>
+<div class="container">
+  <div class="card">
+      <img src="img/Macetas8.jpg">
+      <h4>Mini Macetas de Cerámica</h4>
+      <p>Q75.00</p>
+        <p>Diseños Variados</p>
+  </div>
+<P></P>
+  <div class="card">
+      <img src="img/Macetas9.jpg">
+      <h4>Mini Maceta de Cerámica</h4>
+      <p>Q55.00</p>
+      <p>Diseño Único(Imagen)</p>
+  </div>
+</div>
+<P></P>
+<div class="container">
+  <div class="card">
+      <img src="img/Macetas10.jpg">
+      <h4>Mini Macetas de Metal</h4>
+      <p>Q45.00</p>
+        <p>Varios Colores</p>
+  </div>
+  <P></P>
+</div>
+<P></P>
+
+</div>
+</div>
+<script>
+   const btn = document.querySelector('#menu-btn');
+   const menu = document.querySelector('#sidemenu');
+   btn.addEventListener('click', e =>{
+     menu.classList.toggle("menu-collapsed");
+     menu.calssList.toggle("menu-expanded");
+
+     document.querySelector("body").classList.toggle("body-expanded");
+
+    });
+   </script>
+</body>
+</html>

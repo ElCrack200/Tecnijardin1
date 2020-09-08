@@ -1,0 +1,98 @@
+<html>
+<head>
+  <link rel="icon" type="" href="icons/Prueba10.ico" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+  <title>Inicio</title>
+  <link rel ="stylesheet" href="estilos.css">
+
+</head>
+<body>
+  <div id="contenedor">
+  <div id="sidemenu" class="menu-collapsed">
+
+    <div id="header">
+      <div id="title"><span></span></div>
+
+      <div id="menu-btn">
+        <div class="btn-planta"></div>
+        <div class="btn-planta"></div>
+        <div class="btn-planta"></div>
+      </div>
+  </div>
+
+  <div id= "profile">
+     <div id="photo"><img src="img/Prueba10.png" alt=""></div>
+      <div id="name"><span>Bienvenidos</span></div>
+    </div>
+    <div id="menu-items">
+      <div class="item">
+        <a href="index.html">
+          <div class="icon"><img src="icons/Inicio.png" alt=""></div>
+          <div class="title"><span>Inicio</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Servicios.html">
+          <div class="icon"><img src="icons/Service4.png" alt=""></div>
+          <div class="title"><span>Servicios</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Productos.html">
+          <div class="icon"><img src="icons/Service5.png" alt=""></div>
+          <div class="title"><span>Productos</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Contactos.html">
+          <div class="icon"><img src="icons/Service6.png" alt=""></div>
+          <div class="title"><span>Contactos</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+
+  </div>
+</div>
+<div id="contenedor1">
+<div id="main-container">
+  <p><div class="First-title"> <img src="img/Title.png" alt="" class="img1"></div></p>
+  <div class="eslogan"><img src="img/Eslogan.png" alt=""class="img2"></div>
+  <div class="txt"><P>
+     En Tecnijardín nos dedicamos al diseño y decoración de jardines.  Una de nuestras especialidades es la creación de áreas dentro de edificios comerciales. Contamos con personal capacitado para brindarle la mejor experiencia posible. Garantizamos que nuestro trabajo es de calidad.
+ </div></p>
+<div class="video1"><video width="1000" height="500" controls="controls" class="video">
+  <source src="Video/Video.mp4"> </source>
+</video>
+
+</div>
+ <p><div class="sub1"><img src="img/Sub1.png" class="img3"></div></p>
+
+ <p><div class="image"><img src="img/Fuente.jpg" alt="" class="txt3"></div></p>
+
+ <p><div class="image"><img src="img/Riego.jpg" alt="" class="txt3"></div></p>
+
+ <div class="txt2"><img src="" alt=""></div>
+</div>
+</div>
+</div>
+<script>
+   const btn = document.querySelector('#menu-btn');
+   const menu = document.querySelector('#sidemenu');
+   btn.addEventListener('click', e =>{
+     menu.classList.toggle("menu-collapsed");
+     menu.calssList.toggle("menu-expanded");
+
+     document.querySelector("body").classList.toggle("body-expanded");
+
+    });
+   </script>
+</body>
+</html>

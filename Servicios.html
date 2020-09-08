@@ -1,0 +1,136 @@
+<html>
+<head>
+  <link rel="icon" type="" href="icons/Prueba10.ico" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+  <title>Servicios</title>
+  <link rel ="stylesheet" href="estilos1.css">
+
+</head>
+<body>
+  <div id="contenedor">
+  <div id="sidemenu" class="menu-expanded">
+
+    <div id="header">
+      <div id="title"><span></span></div>
+
+      <div id="menu-btn">
+        <div class="btn-planta"></div>
+        <div class="btn-planta"></div>
+        <div class="btn-planta"></div>
+      </div>
+  </div>
+
+  <div id= "profile">
+     <div id="photo"><img src="img/Prueba10.png" alt=""></div>
+      <div id="name"><span>Bienvenidos</span></div>
+    </div>
+    <div id="menu-items">
+      <div class="item">
+        <a href="index.html">
+          <div class="icon"><img src="icons/Inicio.png" alt=""></div>
+          <div class="title"><span>Inicio</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Servicios.html">
+          <div class="icon"><img src="icons/Service4.png" alt=""></div>
+          <div class="title"><span>Servicios</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Productos.html">
+          <div class="icon"><img src="icons/Service5.png" alt=""></div>
+          <div class="title"><span>Productos</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+      <div class="item">
+        <a href="Contactos.html">
+          <div class="icon"><img src="icons/Service6.png" alt=""></div>
+          <div class="title"><span>Contactos</span></div>
+        </a>
+      </div>
+      <div class="item separator">
+      </div>
+
+  </div>
+</div>
+<div id="contenedor1">
+<div id="main-container">
+<p><div class="First-title"> <img src="img/Título1.png" alt="" class="img1"></div></p>
+
+<div class="container">
+  <div class="card">
+      <img src="img/Fuente1.jpg">
+      <h4>Fuentes</h4>
+      <p>Desde el diseño hasta el mantenimiento. No importa el tamaño, lo hacemos.</p>
+  </div>
+<P></P>
+  <div class="card">
+      <img src="img/Riego.png">
+      <h4>Sistemas de Riego</h4>
+      <p> Cansado de regar?</p>
+        <p>Ya no tendras que precuparte, nosotros tenemos la solución.</p>
+  </div>
+</div>
+<P></P>
+<div class="container">
+  <div class="card">
+      <img src="img/Grama.png">
+      <h4>Engramillado</h4>
+      <p>Qué! El color café no te gusta?</p>
+      <p> No te preocupes nada que un buen engramillado no arregle.</p>
+  </div>
+  <P></P>
+  <div class="card">
+      <img src="img/Garden.jpg">
+      <h4>Jardines</h4>
+      <p>Sabemos que necesitas un poco de naturaleza en tu casa.</p>
+      <p>Solo pídelo</p>
+  </div>
+</div>
+<P></P>
+<div class="container">
+  <div class="card">
+      <img src="img/Camuflaje.jpg">
+      <h4>Camuflajes Monopolos</h4>
+      <p>Nunca más veras las torres de telefonía igual</p>
+  </div>
+<P></P>
+  <div class="card">
+      <img src="img/Vivero.jpg">
+      <h4>Vivero</h4>
+      <p>Un Vivero?</p>
+      <a href="Vivero.html">Leer más</a>
+  </div>
+</div>
+<P></P>
+
+
+
+
+
+
+ <div class="txt2"><img src="" alt=""></div>
+</div>
+</div>
+</div>
+<script>
+   const btn = document.querySelector('#menu-btn');
+   const menu = document.querySelector('#sidemenu');
+   btn.addEventListener('click', e =>{
+     menu.classList.toggle("menu-collapsed");
+     menu.calssList.toggle("menu-expanded");
+
+     document.querySelector("body").classList.toggle("body-expanded");
+
+    });
+   </script>
+</body>
+</html>
